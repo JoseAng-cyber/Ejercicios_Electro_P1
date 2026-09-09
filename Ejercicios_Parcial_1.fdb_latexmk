@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1788963326.85293 "/home/bmo/Documentos/LaTex_Docs/Tarea_1_Teoria_electromagnetica/Ejercicios_Parcial_1.tex" "Ejercicios_Parcial_1.pdf" "Ejercicios_Parcial_1" 1788963327.2473 0
-  "/home/bmo/Documentos/LaTex_Docs/Tarea_1_Teoria_electromagnetica/Ejercicios_Parcial_1.tex" 1788919325.86529 4973 1b0fca3f23b655b5f38d7fe3265ccc63 ""
+["pdflatex"] 1788972163.13303 "/home/bmo/Documentos/LaTex_Docs/Tarea_1_Teoria_electromagnetica/Ejercicios_Parcial_1.tex" "Ejercicios_Parcial_1.pdf" "Ejercicios_Parcial_1" 1788972163.55053 0
+  "/home/bmo/Documentos/LaTex_Docs/Tarea_1_Teoria_electromagnetica/Ejercicios_Parcial_1.tex" 1788972162.7791 7648 0f915765af18639adfcf3d95255caa51 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1775415801 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1775415801 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1775415801 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -41,8 +41,8 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1775415801 43569 fd570f2fa160877d211e859f687312ba ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1787930949 5385779 47c0c393a77fd4a098bacfd57d66b88a ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1787932567 2349409 8f9c33521ce19a79d52ca08d1a91479b ""
-  "Ejercicios_Parcial_1.aux" 1788963327.18352 232 8468c20ea4b2ed0a0f97d01ef9ecfd7e "pdflatex"
-  "Ejercicios_Parcial_1.tex" 1788919325.86529 4973 1b0fca3f23b655b5f38d7fe3265ccc63 ""
+  "Ejercicios_Parcial_1.aux" 1788972163.49491 232 e4374e8bf5cbf47e856857f0b4de3017 "pdflatex"
+  "Ejercicios_Parcial_1.tex" 1788972162.7791 7648 0f915765af18639adfcf3d95255caa51 ""
   (generated)
   "Ejercicios_Parcial_1.aux"
   "Ejercicios_Parcial_1.log"
