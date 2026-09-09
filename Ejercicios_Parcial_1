@@ -1,0 +1,10 @@
+\dcumentclass{article}
+\def\title{Ejercicios Parcial 1}
+\author{Jose Angel Gonzalez Martinez}
+\date{2024-06-10}
+
+\begin{document}
+\make title 
+
+
+\end{document}

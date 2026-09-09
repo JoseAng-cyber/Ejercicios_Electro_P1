@@ -1,0 +1,126 @@
+\documentclass{article}
+\title{Ejercicios Parcial 1}
+\author{Jose Angel Gonzalez Martinez}
+\date{2024-06-10}
+\usepackage[spanish]{babel}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{ragged2e}
+\setlength{\parindent}{0pt}   % quita la sangría
+\setlength{\parskip}{0pt} 
+\newcounter{ejercicio}
+\renewcommand{\theejercicio}{\arabic{ejercicio}}
+
+
+
+\begin{document}
+\RaggedRight
+\justifying
+\maketitle
+
+
+\stepcounter{ejercicio}
+\textbf{\theejercicio.} Una carga de $-0.3\mu C$ se encuentra en el punto 
+A(25,-30,15) (en cm) y una segunda carga de $0.5\mu C$ se encuenetra en el 
+punto B(-10,8,12)cm. Encuentrar E en: a)el origen; b) en P(15,20,50)cm.
+
+\[E=\frac{q}{4 \pi \epsilon_0} \frac{r-r^,}{|r-r^,|^3} \qquad E=\frac{1}{4 \pi \epsilon_0} \sum_{n}^{N} 
+q_n \frac{a_{R_n}}{R_n^2} \qquad \frac{a_{R_n}}{R_n^2}=\frac{r-r^,}{|r-r^,|^3} \]
+En este caso tenemos dos cargas, por lo que la ecuación de E se puede escribir como:
+\[E_{Total}=\frac{1}{4 \pi \epsilon_0} \left( q_1 \frac{r-r^,}{|r-r^,|^3} + q_2 \frac{r-r^{,,}}{|r-r^{,,}|^3} \right) \qquad \frac{1}{4 \pi \epsilon_0}=8.99 \times 10^9 \]
+Inciso a) 
+
+Expresnado en mentros los puntos:
+
+\[A(0.25, -0.30, 0.15) \quad r-r^, = (0,0,0)-(0.25, -0.30, 0.15)=(-0.25, 0.30, -0.15)\]
+\[ |r-r^,| = \sqrt{(-0.25)^2 + (0.30)^2 + (-0.15)^2} = \frac{\sqrt{70}}{20}\]
+\vspace{1cm}
+\[B(-0.10, 0.08, 0.12) \quad r-r^{,,} = (0,0,0)-(-0.10, 0.08, 0.12)=(0.10, -0.08, -0.12)\]
+\[ |r-r^{,,}| = \sqrt{(0.10)^2 + (-0.08)^2 + (-0.12)^2} = \frac{\sqrt{77}}{50}\]
+
+Reemplazando en la ecuación de E:
+\[E_{Total}=8.854 \times 10^9 \left[ -0.3 \times 10^{-6} \frac{(-0.25, 0.30, -0.15)}{(\frac{\sqrt{70}}{20 })^3} + 0.5 \times 10^{-6} \frac{(0.10, -0.08, -0.12)}{(\frac{\sqrt{77}}{50})^3} \right] \]
+\[E_{Total}=-36.84 \times 10^3 (-0.25, 0.30, -0.15)+831.58 \times 10^3 (0.10, -0.08, -0.12)\]
+\[E_{Total}=(9.21, -11.05, 5.53) \times 10^3 + (83.16, -66.53,-99.79) \times 10^3 \]
+\[E_{Total}=(92.37, -77.58, -94.26) \times 10^3 \]
+
+inciso b)
+Repetimos el proceso para el punto P(15,20,50)cm.
+Expresamos en metros.
+\\
+P(0.15,0.2,50)m.
+\\
+Ahora calculamos los valores correspondientes al punto P.
+\\
+\[r-r^,=P-A=(0.15,0.2,0.5)-(0.25,-0.3,0.15)=(-0.1,0.5,0.35)\]
+\[|r-r^{,,}|=\sqrt{(-0.1)^2+(0.5)^2+(0.35)^2}=\frac{3\sqrt{17}}{20}\]
+\[r-r^,=P-B=(0.15,0.2,0.5)-(-0.1,0.08,0.12)=(-0.25,0.12,0.38)\]
+\[|r-r^{,,}|=\sqrt{(0.25)^2+(0.12)^2+(0.38)^2}=0.47\]
+Reemplazando los nuevos valores:
+\[E_{Total}=8.854 \times 10^9 \left[ -0.3 \times 10^{-6} \frac{(-0.10, 0.50, -0.35)}{(\frac{3\sqrt{17}}{20 })^3} + 0.5 \times 10^{-6} \frac{(0.25, 0.12, 0.38)}{(0.47)^3} \right] \]
+\[E_{Total}=-11.4 \times 10^3 (-0.10,0.50, 0.35)+43.29 \times 10^3 (0.25, 0.12, 0.35)\]
+\[E_{Total}=(1.14, -5.7, -3.99) \times 10^3 + (10.82, 5.19,16.45) \times 10^3 \]
+\[E_{Total}=(11.96, -0.51, 12.46) \times 10^3 \]
+
+\stepcounter{ejercicio}
+\textbf{\theejercicio.}Dado un material no magnetico que tenga un $\epsilon_r^,
+=3.2$ y una $\sigma =1.5 \times 10^{-4} S/m$, encuentrese los valores 
+numericos a $3MHz$ de: a) la tangente de perdidas; b) la constante de ateniacion,
+c) la constante de fase; d) la impedancia intrinceca.
+
+a) \[\tan \delta =\frac{\sigma}{\omega \epsilon^,}=\frac{1.5 \times 10^{-4}}{(2\pi \cdot 3 \times 10^6)(3.2)(8.854 \times 10^{-12})}=0.28\]
+
+b) \[\alpha = Re{jk}=\omega \sqrt{\frac{\mu_0 \epsilon _r}{2}} \left( \sqrt{1+\left( \frac{\sigma}{\omega \epsilon_r^,} \right)^2}-1 \right)^\frac{1}{2}\]
+\[\alpha= \]
+
+c) \[\beta=\omega \sqrt{\mu_0\epsilon_0\epsilon_r^,}=6\pi \times 10^6\sqrt{(4\pi \times 10^{-7})(8.854 \times ^{-12})(3.2)}=0.11\]
+
+d)\[\eta = \sqrt{\frac{\mu}{\epsilon^,-j\epsilon^{,,}}} \quad \rightarrow \quad \sqrt{\frac{\mu}{\epsilon_0}}\frac{1}{\sqrt{\epsilon_r^,}}\frac{1}{\sqrt{1-j\frac{\epsilon_r^{,,}}{\epsilon_r^,}}} \quad \rightarrow \quad \sqrt{\frac{\mu}{\epsilon_0\epsilon_r^,}}\frac{1}{\sqrt{1-j\frac{\sigma}{\omega \epsilon_r^,}}}\]
+\[\eta =\sqrt{\frac{\mu}{\epsilon_0\epsilon_r^,}}\frac{1}{\sqrt{1-j\tan \delta }} \quad \rightarrow \quad \sqrt{\frac{4\pi \times 10^{-7}}{(3.2)(8.854 \times 10^{-12})}}=210.65 \]
+Pasamos el numero complejo a su expresion polar:
+\[1-j0.28 \quad \rightarrow \quad \sqrt{(1)^2+(0.28)^2}=\frac{\sqrt{674}}{25}\quad \arctan \left( \frac{b}{a} \right) = \arctan (0.28)= \angle -15.64^\circ\]
+
+\[\sqrt{M\angle \theta}=\sqrt{M}\angle \left( \frac{\theta}{2}\right) \quad \rightarrow \quad \frac{\sqrt[4]{674}}{5}\angle \frac{-15.6^\circ}{2}=1.02\angle -7.82^\circ\]
+\[\eta = \frac{210.65\angle 0^\circ}{1.02 \angle -7.82\circ} \quad \rightarrow \quad \frac{210.65}{1.02}\angle 0^\circ - (-7.82^\circ)\]
+\[\eta = 206.7 \angle 7.82^\circ \]
+
+
+
+\stepcounter{ejercicio}
+\textbf{\theejercicio.}Considere un material para que $\mu_r=1$, $\epsilon_r=2.5$ y la tangente de perdidas es de 0.12. Si esos 
+tres valores son constantes con respecto a la frecuencia en el rango de $0.5MHz \leq f \leq 100MHz$, calculese: a) $\sigma$ a 1 y $75MHz$;
+b) $\lambda$ a 1 y $75MHz$; c) $v_p$ a 1 y $75MHz$.
+
+a) \[ \tan \delta =\frac{\sigma}{\omega \epsilon^,} \quad \rightarrow \quad \sigma =\omega \epsilon_r^, \epsilon_0 \tan \delta \]
+\[\sigma_1 =(2\pi \times 1\times10^6)(2.5)(8.854\times 10^{-12}) (0.12)=16.09\mu S/m\]
+\[\sigma_2 =(2\pi \times 75\times10^6)(2.5)(8.854\times 10^{-12}) (0.12)=1.25m S/m\]
+b) 
+\[ \beta=\omega\sqrt{\mu_0\mu_r\epsilon_0\epsilon_r^,} \quad \rightarrow \quad \lambda=\frac{2\pi}{\beta}\]
+\[\beta_1=(2\pi \times 1\times10^6)\sqrt{(1)(4\pi\times10^{-7})(8.854\times10^{-12})(2.5)} \quad \rightarrow \quad \beta_1=0.033\]
+\[\lambda_1=\frac{2\pi}{0.033}=189.6m\]
+\[\beta_2=(2\pi \times 75\times10^6)\sqrt{(1)(4\pi\times10^{-7})(8.854\times10^{-12})(2.5)} \quad \rightarrow \quad \beta_2=2.48\]
+\[\lambda_2=\frac{2\pi}{2.48}=2.53m\]
+c) \[v_p=\frac{\omega}{\beta} \]
+\[v_{p_1}=\frac{(2\pi\times1\times10^6)}{0.033}=190.4\times10^6m/s\]
+\[v_{p_2}=\frac{(2\pi\times75\times10^6)}{2.48}=190\times10^6m/s\]
+\stepcounter{ejercicio}
+\textbf{\theejercicio.}Una tuberia de acero se construye de un material cuyo $\mu_r=180$ y $\sigma=4\times 10^6S/m$. Los radios son 5 y 7mm, y la longitud es de 75 cm. Si la corriente total I(t) que circula por la tuberia es de $8\cos\omega t A$, donde $\omega=1200\pi rad/S$, encuentrese: a)la profundidad de piel; b) la resistencia efectiva; c) la resistencia en cd; d)la perdida de potencia promedio.
+
+a)
+\[ \delta=\frac{1}{\sqrt{\pi f\mu\sigma}}\quad \omega=2\pi f \quad \rightarrow  f=\frac{\omega}{2\pi}\quad \rightarrow \quad f=\frac{1200\pi}{2\pi}=600Hz\]
+\[\delta=\frac{1}{\sqrt{\pi (600Hz)(4\pi\times10^{-7})(180)(4\times10^6)}}=765.7\times10^{-6}\]
+
+b) En el area efectiva en ac, ocurre el efecto piel y la profundidad depiel resulta se muy peque;a a comparacion del grosor de 2mm de la tuberia, por lo cual, solo se toma en cuenta el area efectiva de la capa exterior.
+\[S_{ac}=2\pi r^2\delta\]
+\[R=\frac{L}{\sigma S} \quad \rightarrow \quad R=\frac{L}{\sigma 2\pi r_2\delta}=\frac{75m}{(4\times 10^6 )(2\pi) (7\times 10^{-3})(765.7\times 10^{-6})}=0.557\Omega\]
+c) Para el caso de la resistencia en corriente directa, no ocurre el efecto piel por lo cual se contempla ambos radio. El radio mayor menos el radio menor es igual al la superficie transversal.
+
+\[S=\pi (r_2)^2 -\pi (r_1)^2 = \pi[(r_2)^2-(r_1)^2]\]
+\[R=\frac{L}{\sigma\pi[(r_2)^2-(r_1)^2] }=\frac{75m}{(4\times10^6)\pi[(7\times10^{-3})^2-(5\times 10^{-3})^2]}=0.259\Omega\]
+
+d)Para calcular la potencia promedio se hace uso de la definicion:
+\[P_{avg}=\frac{1}{T} \int_{0}^Ti(t)^2\times R= \frac{1}{2} I_m^2R_{ac}\]
+Y el valor pico $I_m=8$.
+\[P_{avg}=\frac{1}{2}(8A)^2(0.557\Omega)=17.82W\]
+
+
+\end{document}
